@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <menuitem
+            id="school_school_menu_root"
+            name="School"
+        />
+
+        <menuitem
+            id="school_student_list"
+            name="Student"
+            parent="school_school_menu_root"
+            action="open_view_student_tree"
+        />
+
+        <menuitem
+            id="school_course_list"
+            name="Course"
+            parent="school_school_menu_root"
+            action="open_view_course_tree"
+        />
+
+        <menuitem
+            id="school_registration_list"
+            name="Registration"
+            parent="school_school_menu_root"
+            action="open_view_registration_tree"
+        />
+
+        <menuitem
+            id="school_section_list"
+            name="Section"
+            parent="school_school_menu_root"
+            action="open_view_section_tree"
+        />
+
+        <menuitem
+            id="school_teacher_list"
+            name="Teacher"
+            parent="school_school_menu_root"
+            action="open_view_teacher_tree"
+        />
+    </data>
+</odoo>
